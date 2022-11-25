@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#navegar {
+  background: linear-gradient(#092421, #163834, #0d6d58);
+  width: 100vw;
+}
+
+.home {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  background-image: url("./img/fondo.jpg");
+  background-repeat: no-repeat;
+  position: fixed;
+}
+
+#contenido2 {
+  width: 50vw;
+  position: static;
+  top: 10%;
+  z-index: 1;
+}
+
+.contenido1 {
+  width: 50vw;
+  height: 100vh;
+}
+
+#t1 {
+  display: inline-block;
+  right: 0;
+  position: relative;
+  top: 20%;
+  margin-left: 38%;
+  font-family: "Trirong";
+  font-weight: bold;
+  font-size: 90px;
+  z-index: 2;
+  letter-spacing: 5rem;
+  text-shadow: 2px 2px 4px #dde785;
+  color: rgb(233, 233, 6);
+}
+
+#t2 {
+  display: inline-block;
+  position: relative;
+  top: 20%;
+  margin-left: 40%;
+  font-family: "Trirong";
+  font-weight: bold;
+  font-size: 90px;
+  letter-spacing: 4rem;
+  text-shadow: 2px 2px 4px #88e785;
+  z-index: 2;
+}
+
+#t3 {
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  font-family: "Trirong";
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(49, 175, 68);
+  z-index: 1;
+}
+
+#t4 {
+  display: block;
+  position: relative;
+  top: 50%;
+  font-family: "Trirong";
+  font-weight: bold;
+  font-size: 30px;
+  text-shadow: 2px 2px 4px #d9e4d9;
+  color: rgb(53, 49, 49);
+}
+
+#t {
+  display: inline-block;
+  position: relative;
+  font-family: "Trirong", serif;
+  font-weight: lighter;
+  left: 74rem;
+  top: 20%;
+  font-size: 100px;
+  letter-spacing: 2rem;
+  -ms-writing-mode: tb-lr;
+      writing-mode: vertical-lr;
+  transform: rotate(360deg);
+  text-shadow: 2px 2px 4px #000000;
+  color: #4b6d0d;
+  z-index: 2;
+}
+
+#imagen1 {
+  width: 97%;
+  height: 100%;
+}
+
+#imagen {
+  width: 60vw;
+  height: 100vh;
+}/*# sourceMappingURL=style.css.map */
