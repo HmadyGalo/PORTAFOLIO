@@ -491,15 +491,22 @@ a.btn.btn-theme {
 //Portafolio//
 .project {}
 
-.pic {
-  width: 50%;
-  height: 80%;
+.titles {
+  font-size: 35px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-left: 11%;
+  margin-top: 62ex;
+
+
+
 }
 
 .page-titlee {
   background-image: url('./img/title-3.jpg');
   background-repeat: no-repeat;
-  padding: 90px;
+  padding: 60px;
+  background-size: cover;
   position: relative;
 
 
@@ -637,6 +644,7 @@ a.btn.btn-theme {
   color: #fff;
   text-transform: uppercase;
   margin-left: 11%;
+  align-items: flex-end;
 
 
 }
