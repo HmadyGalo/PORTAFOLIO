@@ -41,7 +41,7 @@ body.dark-body {
 }
 
 .white-bg {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .btn {
@@ -60,7 +60,7 @@ body.dark-body {
 }
 
 a.btn.btn-theme {
-  background-color: #FFC815;
+  background-color: #ffc815;
   padding: 12px 22px;
 }
 
@@ -206,7 +206,7 @@ a.btn.btn-theme {
 }
 
 .page-title {
-  background-image: url("./img/title-1.jpg");
+  background-image: url("../img/title-1.jpg");
   background-repeat: no-repeat;
   padding: 60px;
   position: relative;
@@ -272,7 +272,7 @@ a.btn.btn-theme {
   z-index: -1;
   transform: skew(-30deg);
   -webkit-transform: skew(-30deg);
-  background-color: #FFC815;
+  background-color: #ffc815;
 }
 
 .v-center-box {
@@ -292,7 +292,7 @@ a.btn.btn-theme {
   padding: 0;
   margin-left: 0;
   font: 15px "Work Sans", sans-serif;
-  color: #878C9F;
+  color: #878c9f;
 }
 
 .section-titel h2 {
@@ -321,13 +321,13 @@ a.btn.btn-theme {
   z-index: -1;
   transform: skew(-36deg);
   -webkit-transform: skew(-36deg);
-  background-color: #FFC815;
+  background-color: #ffc815;
 }
 
 .feature-box {
   position: relative;
   padding-left: 30px;
-  color: #878C9F;
+  color: #878c9f;
   font-size: 14px;
   text-align: justify;
 }
@@ -429,7 +429,7 @@ a.btn.btn-theme {
 }
 
 .page-titlee {
-  background-image: url("./img/title-3.jpg");
+  background-image: url("../img/title-3.jpg");
   background-repeat: no-repeat;
   padding: 60px;
   background-size: cover;
@@ -518,7 +518,7 @@ a.btn.btn-theme {
   }
 }
 .page-titles {
-  background-image: url("./img/title-4.jpg");
+  background-image: url("../img/title-4.jpg");
   background-repeat: no-repeat;
   padding: 60px;
   position: relative;
@@ -552,4 +552,17 @@ a.btn.btn-theme {
   text-transform: uppercase;
   margin-left: 11%;
   align-items: flex-end;
+}
+
+.contact-form {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 5px 1px hsl(240deg, 18%, 93%);
+  padding: 30px;
+  color: #878c9f;
+  font: 15px "Work Sans", sans-serif;
+}
+
+.contact-info {
+  padding: 20px;
+  box-shadow: 0px 0px 5px 1px hsl(240deg, 18%, 93%);
 }/*# sourceMappingURL=style.css.map */
