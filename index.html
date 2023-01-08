@@ -22,10 +22,6 @@
 <body>
 	<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navegar">
 		<a class="navbar-brand" href="#">PORTAFOLIO</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" datatarget="#navbarSupportedContent"
-			ariacontrols="navbarSupportedContent" aria-expanded="false" arialabel="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item active">
@@ -42,8 +38,14 @@
 					<a class="nav-link" href="#contact">Contact me</a>
 				</li>
 			</ul>
+		
+		
 
 		</div>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" datatarget="#navbarSupportedContent"
+			ariacontrols="navbarSupportedContent" aria-expanded="false" arialabel="Toggle navigation"  id="menu-hamburguesa">
+			<span class="navbar-toggler-icon"></span>
+		</button>
 	</nav>
 
 
@@ -220,12 +222,12 @@
 		<div class="page white-bg" id="portfolio" style=" z-index: 5; opacity: 1;">
 			<div class="container-fluid p-0">
 				<div class="row no-gutters">
-					<div class="col-lg-12 col-xl-4 page-titlee">
+					<div class="col-md-1 col-xl-4 page-titlee">
 						<div class="v-center-box">
 							<h2 class="titles">My Projects</h2>
 						</div>
 					</div>
-					<div class="col-lg-9 col-xl-8">
+					<div class="col-lg-9 col-xl-8 col-md-4">
 						<div class="page-content">
 
 							<!-- 
@@ -245,29 +247,29 @@
                   Portfolio
                 ==========================
                 -->
-							<!-- Portfolio Filter 
+										<!-- Portfolio Filter -->
 							<div class="portfolio-section">
-								<div class="portfolio-filter m-10px-b">
+								<div class="portfolio-filter mb-3">
 									<ul class="filter text-left text-md-center">
-										<li class="active theme-after" data-filter="*">All</li>
-										<li class="theme-after" data-filter=".photoshop">Photoshop</li>
-										<li class="theme-after" data-filter=".website">Website</li>
-										<li class="theme-after" data-filter=".apps">Apps</li>
+										<li class="lista active " data-filter="all">All</li>
+										<li class="lista" data-filter="sass">Sass</li>
+										<li class="lista" data-filter="bootstrap">Bootsrap</li>
+										<li class="lista" data-filter="javascript">Javascript</li>
 									</ul>
-						</div>-->
-							<!-- Portfolio Filter -->
+						   </div>
+							</div>
+				
 
 							<div class="portafolio-contenido">
-								<div class="card-deck">
-									<div class="row row-cols-2 row-cols-md-2">
-
-										<div class="col mb-2">
-											<div class="card">
+								<div class="card-deck" id="proyectos">
+									<div class="row row-cols-sm-3 project">
+										<div class="caja"> 
+											<div class="card box" data-item="sass">
 												<img src="img/cap3.png" class="card-img-top pic" alt="cap3">
-												<div class="card-body">
+												<div class="card-body ">
 													<h5 class="card-title">Bodega el Kiosko</h5>
-													<p class="card-text text-justify">Pagina web de una tienda de articulos online
-														si te interasa saber mas de este proyecto te adjunto los enlaces en vivo
+													<p class="card-text text-justify">Pagina web de una tienda de articulos online.
+														<br> Si  deseas  saber mas de este proyecto te adjunto los enlaces en vivo
 														y el codigo en github</p>
 													<small class="text-muted">Enlaces de este Proyecto</small>
 												</div>
@@ -280,14 +282,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="col mb-2">
-											<div class="card">
+										<div class="caja"> 
+											<div class="card box" data-item="sass">
 												<img src="/img/cap2.png" class="card-img-top pic1" alt="cap2">
 												<div class="card-body">
 													<h5 class="card-title">Everybody Can Fly</h5>
-													<p class="card-text">Pagina web realizada con
-														html y sass
-														si te interasa saber mas de este proyecto te adjunto los enlaces en vivo
+													<p class="card-text text-justify">Pagina web realizada con
+														html y sass. <br>
+														Si deseas saber mas de este proyecto te adjunto los enlaces en vivo
 														y el codigo en github.</p>
 
 													<small class="text-muted">Enlaces de este Proyecto</small>
@@ -301,15 +303,14 @@
 
 											</div>
 										</div>
-										<div class="col mb-2">
-											<div class="card">
+										<div class="caja">
+											<div class="card box" data-item="sass">
 												<img src="img/cap4.png" class="card-img-top" alt="cap4">
 												<div class="card-body">
 													<h5 class="card-title">Fiber</h5>
-													<p class="card-text">Proyecto Final del modulo1 utilizando CSS y HTML si te interasa saber mas
-														de este proyecto te
-														adjunto los enlaces en vivo
+													<p class="card-text">Pagina Web realizada con html y css. <br>Si deseas saber mas de este proyecto te adjunto los enlaces en vivo
 														y el codigo en github.</p>
+
 
 													<small class="text-muted">Enlaces de este Proyecto</small>
 												</div>
@@ -322,14 +323,13 @@
 
 											</div>
 										</div>
-										<div class="col mb-2">
-											<div class="card">
+										<div class="caja">
+											<div class="card box" data-item="bootstrap">
 												<img src="img/cap5.png" class="card-img-top" alt="cap5">
 												<div class="card-body">
 													<h5 class="card-title">E-commerce</h5>
-													<p class="card-text">Sitio web creado utilizando Bootstrap 4.si te interasa saber mas de este
-														proyecto te adjunto los enlaces en vivo
-														y el codigo en github.</p>
+													<p class="card-text text-justify">Sitio web E-commerce. <br>Si deseas  saber mas de este proyecto te adjunto los enlaces en vivo
+														y el codigo en github</p>
 
 													<small class="text-muted">Enlaces de este Proyecto</small>
 												</div>
@@ -337,6 +337,44 @@
 													<a href="https://github.com/HelenGalo/Drilling-Css-Avanzado-9.git" target="_blank"
 														class="card-link">Github link</a>
 													<a href=" https://helengalo.github.io/Drilling-Css-Avanzado-9/" target="_blank"
+														class="card-link">Pagina
+														en vivo</a>
+												</div>
+											</div>
+										</div>
+										<div class="caja">
+											<div class="card box" data-item="javascript">
+												<img src="img/todolist.jpg" class="card-img-top" alt="todolist">
+												<div class="card-body">
+													<h5 class="card-title">To Do List</h5>
+													<p class="card-text">App de lista de Tareas.<br>Si deseas saber mas de este proyecto te adjunto los enlaces en vivo
+														y el codigo en github.</p>
+
+													<small class="text-muted">Enlaces de este Proyecto</small>
+												</div>
+												<div class="card-body text-center">
+													<a href="https://github.com/HelenGalo/To-do-List" target="_blank"
+														class="card-link">Github link</a>
+													<a href="  https://helengalo.github.io/To-do-List/" target="_blank"
+														class="card-link">Pagina
+														en vivo</a>
+												</div>
+											</div>
+										</div>
+										<div class="caja">
+											<div class="card box" data-item="javascript">
+												<img src="img/Tip.jpg" class="card-img-top" alt="Tip">
+												<div class="card-body">
+													<h5 class="card-title">Tip Calculator</h5>
+													<p class="card-text text-justify">App Para calcular Propina. <br> Si te interas saber mas de este proyecto te adjunto los enlaces en vivo
+														y el codigo en github</p>
+
+													<small class="text-muted">Enlaces de este Proyecto</small>
+												</div>
+												<div class="card-body text-center">
+													<a href="https://github.com/HelenGalo/Tip-Calculator " target="_blank"
+														class="card-link">Github link</a>
+													<a href="https://helengalo.github.io/Tip-Calculator/" target="_blank"
 														class="card-link">Pagina
 														en vivo</a>
 												</div>
@@ -363,6 +401,11 @@
 		</div>
 
 	</section>
+		<!-- 
+                ==========================
+              Seccion de contacto
+                ==========================
+                -->
 
 	<section class="contact">
 		<div class="page white-bg" id="contact" style="transform: translate3d(0px, 0px, 0px); z-index: 5; opacity: 1;">
@@ -391,7 +434,7 @@
 
 								<!-- 
                 ==========================
-                  Contact Us
+                  Informacion de Contacto
                 ==========================
                 -->
 								<div class="row">

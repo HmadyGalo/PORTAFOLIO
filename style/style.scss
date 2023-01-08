@@ -454,6 +454,8 @@ a.btn.btn-theme {
 
 //Portafolio//
 .project {
+  justify-content: space-evenly;
+  margin-top: 5%;
 }
 
 .titles {
@@ -469,7 +471,7 @@ a.btn.btn-theme {
   background-repeat: no-repeat;
   padding: 60px;
   background-size: cover;
-  position: relative;
+  background-size: 181vh;
 }
 
 .page-titlee:after {
@@ -509,8 +511,12 @@ a.btn.btn-theme {
   padding: 4px 15px;
   font-weight: 600;
   letter-spacing: 1px;
-  margin: 2px 1px;
+  margin: 2px 2px;
   cursor: pointer;
+  background-color: #0f0f0f;
+}
+.portfolio-filter li.active {
+  background-color: #ffc815;
 }
 
 .portfolio-filter li:after {
@@ -524,11 +530,15 @@ a.btn.btn-theme {
   transform: skew(-20deg);
   -webkit-transform: skew(-20deg);
 }
-
-.img-project {
-  img {
-    width: 8rem;
-  }
+.card-deck .box.hide {
+  display: none;
+}
+.caja {
+  margin-top: 2%;
+}
+.card-img-top img {
+  width: 50%;
+  object-fit: cover;
 }
 
 .parrafo {

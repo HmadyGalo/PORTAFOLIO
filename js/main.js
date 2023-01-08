@@ -1,12 +1,44 @@
-//declaracion de variables
+//declaracion de variables para proyecto
+let lista=document.querySelectorAll('.lista');
+let box=document.querySelectorAll('.box');
+
+
+//declaracion de variables para el formulario
 const btnEnviar=document.getElementById('send');
 const nombreDeUsuario =document.getElementById('nombre');
 const correo = document.getElementById('email');
 const mensaje = document.getElementById('message');
 const forma= document.getElementById('formulario');
 
-//patron del correo valido
 
+//ciclo  para filtrar los proyectos atravez del elemento de escucha click
+
+for(let i=0; i<lista.length; i++){
+lista[i].addEventListener('click', function(){
+  //for para remover y add la clase active
+  for(let j=0; j<lista.length; j++){
+    lista[j].classList.remove('active');
+  }
+  this.classList.add('active')
+  //variable para obtener el contenidos de data-filter
+  let filtro = this.getAttribute('data-filter');
+  // for para ocultar y mostrar segun los seleccionado
+  for(let k=0; k<box.length; k++){
+    box[k].classList.remove('active');
+    box[k].classList.add('hide');
+
+    if(box[k].getAttribute('data-item')==filtro || filtro == "all"){
+      box[k].classList.remove('hide');
+    box[k].classList.add('active');
+    }
+  }
+  
+
+})
+}
+
+
+//patron del correo valido
 const emailVálido = email => {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 }
