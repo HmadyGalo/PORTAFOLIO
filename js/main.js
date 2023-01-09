@@ -85,7 +85,25 @@ const validación = (e) => {
 //Evento de escucha para validar la forma
 
 btnEnviar.addEventListener('click', validación);
+//Creacion de navar
 
+const texto = document.getElementById('navegando');
+texto.innerHTML=`
+<h1 class="navegar__title">PORTAFOLIO</h1>
+<ul class="navegacion">
+  <li class="nav-list"><a href="#home" class="nav-link">HOME</a></li>
+  <li class="nav-list"><a href="#about" class="nav-link">ABOUT ME</a></li>
+  <li class="nav-list">
+    <a href="#proyecto" class="nav-link">PROYECTO</a>
+  </li>
+  <li class="nav-list">
+    <a href="#contact" class="nav-link">CONTACT</a>
+  </li>
+</ul>
+<button class="menu-hamburguesa" id="menu-hamburguesa">
+  <ion-icon class="barras" name="menu-outline"></ion-icon>
+</button>
+`;
 //constantes para el menu hamburguesas
 const burger = document.querySelector("#menu-hamburguesa");
 const ul = document.querySelector(".navegacion");
@@ -106,6 +124,8 @@ navLink.forEach((link) =>
     ul.classList.remove("show");
   })
 );
+
+
 
 
 
