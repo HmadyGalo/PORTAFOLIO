@@ -1,513 +1,609 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Helen Orellana</title>
-		<!--Link de css	-->
-	<link rel="stylesheet" href="./style/style.css">
-		<!--Link de bootstrap-->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-	<!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Helen Orellana</title>
+    <!--Link de css	-->
+    <link rel="stylesheet" href="./style/style.css" />
+    <!--Link de bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">-->
-	<!--Link de iconos	-->
-	<script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
-		<!--Link de fuentes	-->
-	<link rel="stylesheet"
-		href="https://fonts.googleapis.com/css?family=Trirong&effect=neon|outline|emboss|shadow-multiple">
-</head>
+    <!--Link de iconos	-->
+    <script
+      src="https://use.fontawesome.com/releases/v6.1.0/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--Link de fuentes	-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Trirong&effect=neon|outline|emboss|shadow-multiple"
+    />
+  </head>
 
-<body>
-	<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navegar">
-		<a class="navbar-brand" href="#">PORTAFOLIO</a>
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav mr-auto">
-				<li class="nav-item active">
-				<li class="nav-item">
-					<a class="nav-link a" href="#home">Home</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#about">About</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#projecto">Project</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#contact">Contact me</a>
-				</li>
-			</ul>
-		
-		
+  <body>
+    <nav class="navegar" id="navegando">
+      <h1 class="navegar__title">PORTAFOLIO</h1>
+      <ul class="navegacion">
+        <li class="nav-list"><a href="#home" class="nav-link">HOME</a></li>
+        <li class="nav-list"><a href="#about" class="nav-link">ABOUT ME</a></li>
+        <li class="nav-list">
+          <a href="#proyecto" class="nav-link">PROYECTO</a>
+        </li>
+        <li class="nav-list">
+          <a href="#contact" class="nav-link">CONTACT</a>
+        </li>
+      </ul>
+      <button class="menu-hamburguesa" id="menu-hamburguesa">
+        <ion-icon class="barras" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
 
-		</div>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" datatarget="#navbarSupportedContent"
-			ariacontrols="navbarSupportedContent" aria-expanded="false" arialabel="Toggle navigation"  id="menu-hamburguesa">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-	</nav>
+    <section class="home" id="home">
+      <div class="page-scroll">
+        <div class="card-flex">
+          <div class="card-img-overlay p-0" id="contenido1">
+            <div class="card-img p-0" id="contenido1"></div>
+            <h1 class="card-title font-effect-emboss" id="t1">PORTA</h1>
+            <h1 class="card-title mb-3" id="t2">FOLIO</h1>
+            <h1 class="card-title" id="t3">Helen Orellana</h1>
+            <h1 class="card-titlefont-effect-outlin" id="t4">
+              Ing. Infotecnologia
+            </h1>
+          </div>
 
+          <div class="card-img-overlay p-0" id="contenido2">
+            <img
+              src="img/IMG-20200225-WA0078.jpg"
+              class="card-img-top"
+              id="imagen1"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
 
-	<section class="home">
-		<div class="cardd-flex">
-			<div class="card-img-overlay  p-0" id="contenido1">
-				<div class="card-img-overlay  p-0" id="contenido1">
-					<img src="img/fondo.jpg" class="card-img-top " id="imagen" alt="">
-
-				</div>
-				<h1 class="card-title font-effect-emboss" id="t1">PORTA</h1>
-				<h1 class="card-title mb-3" id="t2">FOLIO</h1>
-				<h1 class="card-title " id="t3"> Helen Orellana</h1>
-				<h1 class="card-titlefont-effect-outlin  " id="t4"> Ing. Infotecnologia</h1>
-			</div>
-
-
-			<div class="card-img-overlay  p-0" id="contenido2">
-				<img src="img/IMG-20200225-WA0078.jpg" class="card-img-top " id="imagen1" alt="">
-
-			</div>
-
-
-		</div>
-		</div>
-
-
-
-	</section>
-
-
-
-	<section class="about">
-		<div class="page about-section white-bg" id="about" style="transform: translate3d(0px, 0px, 0px);  opacity: 1;">
-			<div class="container-fluid p-0">
-				<div class="row no-gutters">
-					<div class="col-md-1 col-xl-4 page-title">
-						<div class="v-center-box d-flex align-items-end">
-							<h2 class="title">About Me</h2>
-						</div>
-					</div>
-					<div class="col-lg-9 col-xl-8">
-						<div class="page-content">
-
-							<!-- 
+    <section class="about">
+      <div
+        class="page about-section white-bg"
+        id="about"
+        style="transform: translate3d(0px, 0px, 0px); opacity: 1"
+      >
+        <div class="container-fluid p-0">
+          <div class="row no-gutters">
+            <div class="col-lg- col-xl-4 page-title">
+              <div class="v-center-box d-flex align-items-end">
+                <h2 class="title">About Me</h2>
+              </div>
+            </div>
+            <div class="col-lg-9 col-xl-8">
+              <div class="page-content">
+                <!-- 
                 ==========================
                   Page Titel
                 ==========================
                 -->
-							<div class="section-titel">
-								<h6 class="theme-after dark-color">Sobre Mi</h6>
-								<div class="st-title">
-									<h2 class="theme-after dark-color">Conoceme</h2>
-								</div>
-							</div>
+                <div class="section-titel">
+                  <h6 class="theme-after dark-color">Sobre Mi</h6>
+                  <div class="st-title">
+                    <h2 class="theme-after dark-color">Conoceme</h2>
+                  </div>
+                </div>
 
-							<!-- 
+                <!-- 
                 ==========================
                   About Us
                 ==========================
                 -->
-							<div class="row">
-								<div class="col-md-4">
-									<img src="img/mifoto.jpg" title="" alt="" class="image">
-								</div>
-								<div class="col-md-8 md-m-30px-t">
-									<div class="about-text">
-										<h3 class="dark-color">I'm Helen Orellana</h3>
-										<p class="m-0px">Tengo 24 años estoy finalizando mi carrera de Ingenieria
-											en Infotecnología,Estoy interesada en el area de desarrollo y base de
-											datos considero son las areas que mas me apasionan y que se me
-											facilitan, soy una persona con facilidad de aprendizaje, comprometida
-											capacidad de trabajar bajo presion, responsable y persistente en lo que
-											me propongo.
-											Ademas de eso me apasiona el canto, organizar eventos, viajar, cocinar.</p>
-									</div>
-									<!-- about-text -->
+                <div class="row">
+                  <div class="col-md-4">
+                    <img src="img/mifoto.jpg" title="" alt="" class="image" />
+                  </div>
+                  <div class="col-md-8 md-m-30px-t">
+                    <div class="about-text">
+                      <h3 class="dark-color">I'm Helen Orellana</h3>
+                      <p class="m-0px">
+                        Tengo 24 años estoy finalizando mi carrera de Ingenieria
+                        en Infotecnología,Estoy interesada en el area de
+                        desarrollo y base de datos considero son las areas que
+                        mas me apasionan y que se me facilitan, soy una persona
+                        con facilidad de aprendizaje, comprometida capacidad de
+                        trabajar bajo presion, responsable y persistente en lo
+                        que me propongo. Ademas de eso me apasiona el canto,
+                        organizar eventos, viajar, cocinar.
+                      </p>
+                    </div>
+                    <!-- about-text -->
 
-									<div class="row m-30px-t">
-										<div class="col-md-6 col-sm-6 m-30px-b">
-											<div class="feature-box">
-												<i class="icon dark-color theme-after fab fa-java"></i>
-												<div class="feature-content">
-													<h5 class="dark-color">Development</h5>
-													<ul class="list m-2px-b">
-														<li class="item" aria-current="true">Java
-														</li>
-														<li class="item">Kotlin</li>
-														<li class="item">Python</li>
-														<li class="item">Javascrip</li>
-														<li class="item">PHP</li>
+                    <div class="row m-30px-t">
+                      <div class="col-md-6 col-sm-6 m-30px-b">
+                        <div class="feature-box">
+                          <i
+                            class="icon dark-color theme-after fab fa-java"
+                          ></i>
+                          <div class="feature-content">
+                            <h5 class="dark-color">Development</h5>
+                            <ul class="list m-2px-b">
+                              <li class="item" aria-current="true">Java</li>
+                              <li class="item">Kotlin</li>
+                              <li class="item">Python</li>
+                              <li class="item">Javascrip</li>
+                              <li class="item">PHP</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- col -->
 
-													</ul>
-												</div>
-											</div>
-										</div> <!-- col -->
+                      <div class="col-md-6 col-sm-6 m-30px-b">
+                        <div class="feature-box">
+                          <i
+                            class="icon dark-color theme-after fab fa-microsoft"
+                          ></i>
+                          <div class="feature-content">
+                            <h5 class="dark-color">Microsoft</h5>
+                            <ul class="list">
+                              <li class="item" aria-current="true">
+                                Word Avanzado
+                              </li>
+                              <li class="item">Excel Avanzado</li>
+                              <li class="item">PowerBI Intermedio</li>
+                              <li class="item">Access Intermedio</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- col -->
 
-										<div class="col-md-6 col-sm-6 m-30px-b">
-											<div class="feature-box">
-												<i class="icon dark-color theme-after  fab fa-microsoft"></i>
-												<div class="feature-content">
-													<h5 class="dark-color">Microsoft</h5>
-													<ul class="list">
-														<li class="item" aria-current="true">Word
-															Avanzado</li>
-														<li class="item">Excel Avanzado</li>
-														<li class="item">PowerBI Intermedio</li>
-														<li class="item">Access Intermedio</li>
+                      <div class="col-md-6 col-sm-6 m-30px-b">
+                        <div class="feature-box">
+                          <i
+                            class="icon dark-color theme-after fas fa-database"
+                          ></i>
+                          <div class="feature-content">
+                            <h5 class="dark-color">SGBD</h5>
+                            <ul class="list">
+                              <li class="item" aria-current="true">
+                                Microsoft Sql Serve
+                              </li>
+                              <li class="item">MySql</li>
+                              <li class="item">Oracle Database</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- col -->
 
-													</ul>
-												</div>
-											</div>
-										</div> <!-- col -->
+                      <div class="col-md-6 col-sm-6 m-30px-b">
+                        <div class="feature-box">
+                          <i
+                            class="icon dark-color theme-after fab fa-css3-alt"
+                          ></i>
+                          <div class="feature-content">
+                            <h5 class="dark-color">Web design</h5>
+                            <ul class="list">
+                              <li class="item" aria-current="true">CSS</li>
+                              <li class="item">SASS</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- col -->
+                    </div>
+                    <!-- row -->
 
-										<div class="col-md-6 col-sm-6 m-30px-b">
-											<div class="feature-box">
-												<i class="icon dark-color theme-after fas fa-database "></i>
-												<div class="feature-content">
-													<h5 class="dark-color">SGBD</h5>
-													<ul class="list">
-														<li class="item" aria-current="true">
-															Microsoft
-															Sql Serve</li>
-														<li class="item">MySql</li>
-														<li class="item">Oracle Database</li>
+                    <div class="btn-bar">
+                      <a href="#" class="btn btn-theme">Download CV</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- row -->
 
-													</ul>
-												</div>
-											</div>
-										</div> <!-- col -->
-
-										<div class="col-md-6 col-sm-6 m-30px-b">
-											<div class="feature-box">
-												<i class="icon dark-color theme-after fab fa-css3-alt"></i>
-												<div class="feature-content">
-													<h5 class="dark-color">Web design</h5>
-													<ul class="list">
-														<li class="item" aria-current="true">CSS
-														</li>
-														<li class="item">SASS</li>
-													</ul>
-												</div>
-											</div>
-										</div> <!-- col -->
-									</div> <!-- row -->
-
-									<div class="btn-bar">
-										<a href="#" class="btn btn-theme">Download CV</a>
-									</div>
-
-								</div>
-							</div> <!-- row -->
-
-							<!-- 
+                <!-- 
                 ==========================
                  iconos
                 ==========================
                 -->
-							<ul class="social-icons">
-								<li><a class="Github" href="#"><i class="fa-brands fa-github-alt"></i></a></li>
-								<li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
-								<li><a class="google" href="#"><i class="fab fa-google-plus-g"></i></a></li>
-								<li><a class="linkedin" href="#"><i class="fab fa-linkedin-in"></i></a></li>
-							</ul>
+                <ul class="social-icons">
+                  <li>
+                    <a class="Github" href="#"
+                      ><i class="fa-brands fa-github-alt"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a class="twitter" href="#"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a class="google" href="#"
+                      ><i class="fab fa-google-plus-g"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a class="linkedin" href="#"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+              <!-- page-content -->
+            </div>
+          </div>
+          <!-- row -->
+        </div>
+      </div>
+    </section>
+    <section class="proyecto" id="proyecto">
+      <div class="page white-bg" id="portfolio" style="opacity: 1">
+        <div class="container-fluid p-0">
+          <div class="row no-gutters">
+            <div class="col-lg- col-xl-4 page-titlee">
+              <div class="v-center-box">
+                <h2 class="titles">My Projects</h2>
+              </div>
+            </div>
+            <div class="col-lg-9 col-xl-8">
+              <div class="page-content">
+                <div class="section-titel">
+                  <h6 class="theme-after dark-color">Latest Work</h6>
+                  <div class="st-title">
+                    <h2 class="theme-after dark-color">My Projects</h2>
+                  </div>
+                </div>
+                <!-- Portfolio Filter -->
+                <div class="portfolio-section">
+                  <div class="portfolio-filter mb-3">
+                    <ul class="filter text-left text-md-center">
+                      <li class="lista active" data-filter="all">All</li>
+                      <li class="lista" data-filter="sass">Sass</li>
+                      <li class="lista" data-filter="bootstrap">Bootsrap</li>
+                      <li class="lista" data-filter="javascript">Javascript</li>
+                    </ul>
+                  </div>
+                </div>
 
-						</div> <!-- page-content -->
-					</div>
-				</div> <!-- row -->
-			</div>
-		</div>
+                <div class="portafolio-content">
+                  <div class="card-deck" id="proyectos">
+                    <div class="row row-cols-md-3">
+                      <div class="caja">
+                        <div class="card box" data-item="sass">
+                          <img
+                            src="img/cap3.png"
+                            class="card-img-top pic"
+                            alt="cap3"
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title">Bodega el Kiosko</h5>
+                            <small class="text-muted"
+                              >Enlaces de este Proyecto</small
+                            >
+                          </div>
+                          <div class="card-body text-center">
+                            <a
+                              href="https://github.com/HelenGalo/Bodega-el-Kiosko.git"
+                              target="_blank"
+                              class="card-link"
+                              >Github link</a
+                            >
+                            <a
+                              href="https://helengalo.github.io/Bodega-el-Kiosko/"
+                              target="_blank"
+                              class="card-link"
+                              >Pagina en vivo</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="caja">
+                        <div class="card box" data-item="sass">
+                          <img
+                            src="/img/cap2.png"
+                            class="card-img-top pic1"
+                            alt="cap2"
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title">Everybody Can Fly</h5>
 
-	</section>
-	<section class="projecto">
-		<div class="page white-bg" id="portfolio" style=" z-index: 5; opacity: 1;">
-			<div class="container-fluid p-0">
-				<div class="row no-gutters">
-					<div class="col-md-1 col-xl-4 page-titlee">
-						<div class="v-center-box">
-							<h2 class="titles">My Projects</h2>
-						</div>
-					</div>
-					<div class="col-lg-9 col-xl-8 col-md-4">
-						<div class="page-content">
+                            <small class="text-muted"
+                              >Enlaces de este Proyecto</small
+                            >
+                          </div>
+                          <div class="card-body text-center">
+                            <a
+                              href="https://github.com/HelenGalo/ProyectoSass.git"
+                              target="_blank"
+                              class="card-link"
+                              >Github link</a
+                            >
+                            <a
+                              href=" https://helengalo.github.io/ProyectoSass/"
+                              target="_blank"
+                              class="card-link"
+                              >Pagina en vivo</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="caja">
+                        <div class="card box" data-item="sass">
+                          <img
+                            src="img/cap4.png"
+                            class="card-img-top"
+                            alt="cap4"
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title">Fiber</h5>
+                            <small class="text-muted"
+                              >Enlaces de este Proyecto</small
+                            >
+                          </div>
+                          <div class="card-body text-center">
+                            <a
+                              href="https://github.com/HelenGalo/ProyectoFinal.git"
+                              target="_blank"
+                              class="card-link"
+                              >Github link</a
+                            >
+                            <a
+                              href=" https://helengalo.github.io/ProyectoFinal/"
+                              target="_blank"
+                              class="card-link"
+                              >Pagina en vivo</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="caja">
+                        <div class="card box" data-item="bootstrap">
+                          <img
+                            src="img/cap5.png"
+                            class="card-img-top"
+                            alt="cap5"
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title">E-commerce</h5>
 
-							<!-- 
+                            <small class="text-muted"
+                              >Enlaces de este Proyecto</small
+                            >
+                          </div>
+                          <div class="card-body text-center">
+                            <a
+                              href="https://github.com/HelenGalo/Drilling-Css-Avanzado-9.git"
+                              target="_blank"
+                              class="card-link"
+                              >Github link</a
+                            >
+                            <a
+                              href=" https://helengalo.github.io/Drilling-Css-Avanzado-9/"
+                              target="_blank"
+                              class="card-link"
+                              >Pagina en vivo</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="caja">
+                        <div class="card box" data-item="javascript">
+                          <img
+                            src="img/todolist.jpg"
+                            class="card-img-top"
+                            alt="todolist"
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title">To Do List</h5>
+
+                            <small class="text-muted"
+                              >Enlaces de este Proyecto</small
+                            >
+                          </div>
+                          <div class="card-body text-center">
+                            <a
+                              href="https://github.com/HelenGalo/To-do-List"
+                              target="_blank"
+                              class="card-link"
+                              >Github link</a
+                            >
+                            <a
+                              href="  https://helengalo.github.io/To-do-List/"
+                              target="_blank"
+                              class="card-link"
+                              >Pagina en vivo</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="caja">
+                        <div class="card box" data-item="javascript">
+                          <img
+                            src="img/Tip.jpg"
+                            class="card-img-top"
+                            alt="Tip"
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title">Tip Calculator</h5>
+
+                            <small class="text-muted"
+                              >Enlaces de este Proyecto</small
+                            >
+                          </div>
+                          <div class="card-body text-center">
+                            <a
+                              href="https://github.com/HelenGalo/Tip-Calculator "
+                              target="_blank"
+                              class="card-link"
+                              >Github link</a
+                            >
+                            <a
+                              href="https://helengalo.github.io/Tip-Calculator/"
+                              target="_blank"
+                              class="card-link"
+                              >Pagina en vivo</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- page-content -->
+
+              <!-- page-scroll -->
+            </div>
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+    </section>
+
+    <section class="contact">
+      <div
+        class="page white-bg"
+        id="contact"
+        style="transform: translate3d(0px, 0px, 0px); opacity: 1"
+      >
+        <div class="container-fluid p-0">
+          <div class="row no-gutters">
+            <div class="col-lg- col-xl-4 page-titles">
+              <div class="v-center-box">
+                <h2 class="title">Contact Me</h2>
+              </div>
+            </div>
+            <div class="col-lg-8 col-xl-8">
+              <div class="page-content">
+                <!-- 
                 ==========================
                   Page Titel
                 ==========================
                 -->
-							<div class="section-titel">
-								<h6 class="theme-after dark-color">Latest Work</h6>
-								<div class="st-title">
-									<h2 class="theme-after dark-color">My Projects</h2>
-								</div>
-							</div>
+                <div class="section-titel">
+                  <h6 class="theme-after dark-color">Get In Touch</h6>
+                  <div class="st-title">
+                    <h2 class="theme-after dark-color">Contact Me</h2>
+                  </div>
+                </div>
 
-							<!-- 
-                ==========================
-                  Portfolio
-                ==========================
-                -->
-										<!-- Portfolio Filter -->
-							<div class="portfolio-section">
-								<div class="portfolio-filter mb-3">
-									<ul class="filter text-left text-md-center">
-										<li class="lista active " data-filter="all">All</li>
-										<li class="lista" data-filter="sass">Sass</li>
-										<li class="lista" data-filter="bootstrap">Bootsrap</li>
-										<li class="lista" data-filter="javascript">Javascript</li>
-									</ul>
-						   </div>
-							</div>
-				
-
-							<div class="portafolio-contenido">
-								<div class="card-deck" id="proyectos">
-									<div class="row row-cols-sm-3 project">
-										<div class="caja"> 
-											<div class="card box" data-item="sass">
-												<img src="img/cap3.png" class="card-img-top pic" alt="cap3">
-												<div class="card-body ">
-													<h5 class="card-title">Bodega el Kiosko</h5>
-													<p class="card-text text-justify">Pagina web de una tienda de articulos online.
-														<br> Si  deseas  saber mas de este proyecto te adjunto los enlaces en vivo
-														y el codigo en github</p>
-													<small class="text-muted">Enlaces de este Proyecto</small>
-												</div>
-												<div class="card-body text-center">
-													<a href="https://github.com/HelenGalo/Bodega-el-Kiosko.git" target="_blank"
-														class="card-link">Github link</a>
-													<a href="https://helengalo.github.io/Bodega-el-Kiosko/" target="_blank"
-														class="card-link">Pagina
-														en vivo</a>
-												</div>
-											</div>
-										</div>
-										<div class="caja"> 
-											<div class="card box" data-item="sass">
-												<img src="/img/cap2.png" class="card-img-top pic1" alt="cap2">
-												<div class="card-body">
-													<h5 class="card-title">Everybody Can Fly</h5>
-													<p class="card-text text-justify">Pagina web realizada con
-														html y sass. <br>
-														Si deseas saber mas de este proyecto te adjunto los enlaces en vivo
-														y el codigo en github.</p>
-
-													<small class="text-muted">Enlaces de este Proyecto</small>
-												</div>
-												<div class="card-body text-center">
-													<a href="https://github.com/HelenGalo/ProyectoSass.git" target="_blank"
-														class="card-link">Github link</a>
-													<a href=" https://helengalo.github.io/ProyectoSass/" target="_blank" class="card-link">Pagina
-														en vivo</a>
-												</div>
-
-											</div>
-										</div>
-										<div class="caja">
-											<div class="card box" data-item="sass">
-												<img src="img/cap4.png" class="card-img-top" alt="cap4">
-												<div class="card-body">
-													<h5 class="card-title">Fiber</h5>
-													<p class="card-text">Pagina Web realizada con html y css. <br>Si deseas saber mas de este proyecto te adjunto los enlaces en vivo
-														y el codigo en github.</p>
-
-
-													<small class="text-muted">Enlaces de este Proyecto</small>
-												</div>
-												<div class="card-body text-center">
-													<a href="https://github.com/HelenGalo/ProyectoFinal.git" target="_blank"
-														class="card-link">Github link</a>
-													<a href=" https://helengalo.github.io/ProyectoFinal/" target="_blank" class="card-link">Pagina
-														en vivo</a>
-												</div>
-
-											</div>
-										</div>
-										<div class="caja">
-											<div class="card box" data-item="bootstrap">
-												<img src="img/cap5.png" class="card-img-top" alt="cap5">
-												<div class="card-body">
-													<h5 class="card-title">E-commerce</h5>
-													<p class="card-text text-justify">Sitio web E-commerce. <br>Si deseas  saber mas de este proyecto te adjunto los enlaces en vivo
-														y el codigo en github</p>
-
-													<small class="text-muted">Enlaces de este Proyecto</small>
-												</div>
-												<div class="card-body text-center">
-													<a href="https://github.com/HelenGalo/Drilling-Css-Avanzado-9.git" target="_blank"
-														class="card-link">Github link</a>
-													<a href=" https://helengalo.github.io/Drilling-Css-Avanzado-9/" target="_blank"
-														class="card-link">Pagina
-														en vivo</a>
-												</div>
-											</div>
-										</div>
-										<div class="caja">
-											<div class="card box" data-item="javascript">
-												<img src="img/todolist.jpg" class="card-img-top" alt="todolist">
-												<div class="card-body">
-													<h5 class="card-title">To Do List</h5>
-													<p class="card-text">App de lista de Tareas.<br>Si deseas saber mas de este proyecto te adjunto los enlaces en vivo
-														y el codigo en github.</p>
-
-													<small class="text-muted">Enlaces de este Proyecto</small>
-												</div>
-												<div class="card-body text-center">
-													<a href="https://github.com/HelenGalo/To-do-List" target="_blank"
-														class="card-link">Github link</a>
-													<a href="  https://helengalo.github.io/To-do-List/" target="_blank"
-														class="card-link">Pagina
-														en vivo</a>
-												</div>
-											</div>
-										</div>
-										<div class="caja">
-											<div class="card box" data-item="javascript">
-												<img src="img/Tip.jpg" class="card-img-top" alt="Tip">
-												<div class="card-body">
-													<h5 class="card-title">Tip Calculator</h5>
-													<p class="card-text text-justify">App Para calcular Propina. <br> Si te interas saber mas de este proyecto te adjunto los enlaces en vivo
-														y el codigo en github</p>
-
-													<small class="text-muted">Enlaces de este Proyecto</small>
-												</div>
-												<div class="card-body text-center">
-													<a href="https://github.com/HelenGalo/Tip-Calculator " target="_blank"
-														class="card-link">Github link</a>
-													<a href="https://helengalo.github.io/Tip-Calculator/" target="_blank"
-														class="card-link">Pagina
-														en vivo</a>
-												</div>
-											</div>
-										</div>
-									</div>
-
-								</div>
-
-
-
-
-
-							</div>
-
-
-
-
-
-						</div> <!-- page-content -->
-					</div>
-				</div>
-			</div> <!-- row -->
-		</div>
-
-	</section>
-		<!-- 
-                ==========================
-              Seccion de contacto
-                ==========================
-                -->
-
-	<section class="contact">
-		<div class="page white-bg" id="contact" style="transform: translate3d(0px, 0px, 0px); z-index: 5; opacity: 1;">
-			<div class="container-fluid p-0">
-				<div class="row no-gutters">
-					<div class="col-lg- col-xl-4 page-titles">
-						<div class="v-center-box">
-							<h2 class="title">Contact Me</h2>
-						</div>
-					</div>
-					<div class="col-lg-8 col-xl-8">
-						<div class="page-scroll">
-							<div class="page-content">
-
-								<!-- 
-                ==========================
-                  Page Titel
-                ==========================
-                -->
-								<div class="section-titel">
-									<h6 class="theme-after dark-color">Get In Touch</h6>
-									<div class="st-title">
-										<h2 class="theme-after dark-color">Contact Me</h2>
-									</div>
-								</div>
-
-								<!-- 
+                <!-- 
                 ==========================
                   Informacion de Contacto
                 ==========================
                 -->
-								<div class="row">
-									<div class="col-lg-12 m-30px-b sm-m-15px-b">
-										<div class="contact-form">
-											<h4 class="dark-color font-alt m-20px-b">Say Something</h4>
-											<form class="contactform" id ="formulario" method="post">
-												<div class="row">
-													<div class="col-md-6">
-														<div class="form-group">
-															<input id="nombre" name="name" type="text" placeholder="Name" class="validate form-control">
-															<span class="input-focus-effect theme-bg"></span>
-														</div>
-													</div>
-													<div class="col-md-6">
-														<div class="form-group">
-															<input id="email" type="email" placeholder="Email" name="email"
-																class="validate form-control">
-															<span class="input-focus-effect theme-bg"></span>
-														</div>
-													</div>
-													<div class="col-md-12">
-														<div class="form-group">
-															<textarea id="message" placeholder="Your Comment" name="message" class="form-control"></textarea>
-															<span class="input-focus-effect theme-bg"></span>
-														</div>
-													</div>
-													<div class="col-md-12 top-50">
-														<div class="send">
-															<button class="btn btn-theme bg-warning" type="submit" name="send" id="send"> send message</button>
-														</div>
-														<span class="output_message"></span>
-													</div>
-												</div>
-											</form>
-										</div>
-									</div> <!-- col -->
-								</div>
+                <div class="row">
+                  <div class="col-lg-12 m-30px-b sm-m-15px-b">
+                    <div class="contact-form">
+                      <h4 class="dark-color font-alt m-20px-b">
+                        Say Something
+                      </h4>
+                      <form class="contactform" id="formulario" method="post">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <input
+                                id="nombre"
+                                name="name"
+                                type="text"
+                                placeholder="Name"
+                                class="validate form-control"
+                              />
+                              <span class="input-focus-effect theme-bg"></span>
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <input
+                                id="email"
+                                type="email"
+                                placeholder="Email"
+                                name="email"
+                                class="validate form-control"
+                              />
+                              <span class="input-focus-effect theme-bg"></span>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <textarea
+                                id="message"
+                                placeholder="Your Comment"
+                                name="message"
+                                class="form-control"
+                              ></textarea>
+                              <span class="input-focus-effect theme-bg"></span>
+                            </div>
+                          </div>
+                          <div class="col-md-12 top-50">
+                            <div class="send">
+                              <button
+                                class="btn btn-theme bg-warning"
+                                type="submit"
+                                name="send"
+                                id="send"
+                              >
+                                send message
+                              </button>
+                            </div>
+                            <span class="output_message"></span>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <!-- col -->
+                </div>
 
-								<div class="row mt-lg-5">
-									<div class="col-md-4 m-15px-tb sm-m-0px-b">
-										<div class="contact-info">
-											<i class="theme-color  fa fa-map-pin"></i>
-											<h6 class="dark-color font-alt">Our Address</h6>
-											<p>Tegucigalpa, Honduras.</p>
-										</div>
-									</div>
-									<div class="col-md-4 m-15px-tb">
-										<div class="contact-info">
-											<i class="theme-color fa fa-mobile-phone"></i>
-											<h6 class="dark-color font-alt ">Phone</h6>
-											<p>Office: +504 9647-7844</p>
-										</div>
-									</div>
-									<div class="col-md-4 m-15px-tb sm-m-0px-b">
-										<div class="contact-info">
-											<i class="theme-color  fa fa-sign-in"></i>
-											<h6 class="dark-color font-alt">Email</h6>
-											<p>Helenmg1998@gmail.com</p>
-										</div>
-									</div>
-								</div>
+                <div class="row mt-lg-5">
+                  <div class="col-md-4 m-15px-tb sm-m-0px-b">
+                    <div class="contact-info">
+                      <i class="theme-color fa fa-map-pin"></i>
+                      <h6 class="dark-color font-alt">Our Address</h6>
+                      <p>Tegucigalpa, Honduras.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4 m-15px-tb">
+                    <div class="contact-info">
+                      <i class="theme-color fa fa-mobile-phone"></i>
+                      <h6 class="dark-color font-alt">Phone</h6>
+                      <p>Office: +504 9647-7844</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4 m-15px-tb sm-m-0px-b">
+                    <div class="contact-info">
+                      <i class="theme-color fa fa-sign-in"></i>
+                      <h6 class="dark-color font-alt">Email</h6>
+                      <p>Helenmg1998@gmail.com</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- page-content -->
 
-							</div> <!-- page-content -->
-						</div> <!-- page-scroll  -->
-					</div>
-				</div> <!-- row -->
-			</div>
-		</div>
-	</section>
-<!-- link de javascript -->
-<script src="js/main.js"></script>
+              <!-- page-scroll  -->
+            </div>
+          </div>
+          <!-- row -->
+        </div>
+      </div>
+    </section>
+    <!-- link de javascript -->
 
-</body>
+    <script src="js/main.js"></script>
 
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
