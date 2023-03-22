@@ -1,6 +1,6 @@
 # PORTAFOLIO
 Este apartado es para mi portafolio donde podran conocer mas acerca de mi y mi trabajo
-##Elaborado con 
+#Elaborado con 
 -Javascrip
 -Html
 -Sass
